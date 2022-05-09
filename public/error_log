@@ -1,0 +1,20 @@
+[09-Feb-2022 21:09:29 America/Chicago] PHP Fatal error:  Uncaught ErrorException: fwrite(): write of 1 bytes failed with errno=5 Input/output error in /home/labk3464/public_html/ukk/adikaputra/system/CLI/CLI.php:995
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'fwrite(): write...', '/home/labk3464/...', 995, Array)
+#1 /home/labk3464/public_html/ukk/adikaputra/system/CLI/CLI.php(995): fwrite(Resource id #2, '\n')
+#2 /home/labk3464/public_html/ukk/adikaputra/system/CLI/CLI.php(364): CodeIgniter\CLI\CLI::fwrite(Resource id #2, '\n')
+#3 /home/labk3464/public_html/ukk/adikaputra/system/CLI/CLI.php(441): CodeIgniter\CLI\CLI::write()
+#4 /home/labk3464/public_html/ukk/adikaputra/app/Views/errors/cli/error_exception.php(6): CodeIgniter\CLI\CLI::newLine()
+#5 /home/labk3464/public_html/ukk/adikaputra/system/Debug/Exceptions.php(234): include('/home/labk3464/...')
+#6 /home/labk3464/public_html/ukk/adikaputra/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#7 /home/labk3464/public_html/ukk/adika in /home/labk3464/public_html/ukk/adikaputra/system/CLI/CLI.php on line 995
+[09-Feb-2022 21:09:29 America/Chicago] PHP Fatal error:  Uncaught ErrorException: fwrite(): write of 1 bytes failed with errno=5 Input/output error in /home/labk3464/public_html/ukk/adikaputra/system/CLI/CLI.php:995
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'fwrite(): write...', '/home/labk3464/...', 995, Array)
+#1 /home/labk3464/public_html/ukk/adikaputra/system/CLI/CLI.php(995): fwrite(Resource id #2, '\n')
+#2 /home/labk3464/public_html/ukk/adikaputra/system/CLI/CLI.php(364): CodeIgniter\CLI\CLI::fwrite(Resource id #2, '\n')
+#3 /home/labk3464/public_html/ukk/adikaputra/system/CLI/CLI.php(441): CodeIgniter\CLI\CLI::write()
+#4 /home/labk3464/public_html/ukk/adikaputra/app/Views/errors/cli/error_exception.php(6): CodeIgniter\CLI\CLI::newLine()
+#5 /home/labk3464/public_html/ukk/adikaputra/system/Debug/Exceptions.php(234): include('/home/labk3464/...')
+#6 /home/labk3464/public_html/ukk/adikaputra/system/Debug/Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#7 /home/labk3464/public_html/ukk/adika in /home/labk3464/public_html/ukk/adikaputra/system/CLI/CLI.php on line 995
